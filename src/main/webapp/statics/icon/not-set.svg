@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="28"
+   height="28"
+   viewBox="0 0 28 28"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="not-set.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="19.900005"
+     inkscape:cx="7.7638171"
+     inkscape:cy="14.070348"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Groupe_3365" />
+  <g
+     id="Groupe_3365"
+     data-name="Groupe 3365"
+     transform="translate(0)">
+    <circle
+       id="Ellipse_17"
+       data-name="Ellipse 17"
+       cx="14"
+       cy="14"
+       r="14"
+       fill="#fff"
+       transform="translate(0)" />
+    <path
+       id="Icon_awesome-minus"
+       data-name="Icon awesome-minus"
+       d="M 20.071281,12.353 H 7.9317186 a 1.0137037,1.1 0 0 0 -1.0137037,1.1 v 1.1 a 1.0137037,1.1 0 0 0 1.0137037,1.1 H 20.071281 a 1.0137037,1.1 0 0 0 1.013704,-1.1 v -1.1 a 1.0137037,1.1 0 0 0 -1.013704,-1.1 z"
+       fill="#dfdfdf"
+       style="stroke-width:0.959973;fill:#262626;fill-opacity:1" />
+    <path
+       id="Icon_awesome-minus-4"
+       data-name="Icon awesome-minus"
+       d="M 12.310462,8.5218376 V 19.197364 a 1.1,0.89145064 0 0 0 1.1,0.891451 h 1.1 a 1.1,0.89145064 0 0 0 1.1,-0.891451 V 8.5218376 a 1.1,0.89145064 0 0 0 -1.1,-0.8914506 h -1.1 a 1.1,0.89145064 0 0 0 -1.1,0.8914506 z"
+       fill="#dfdfdf"
+       style="fill:#262626;fill-opacity:1;stroke-width:0.900228" />
+  </g>
+</svg>

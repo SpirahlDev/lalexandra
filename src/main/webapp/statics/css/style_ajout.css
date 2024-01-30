@@ -1,0 +1,345 @@
+*:not(.nav-set,#list-nav){
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+/* forme notification  */ 
+#shape-notify {
+    border-radius: 10px;
+    background-color: #599c60;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 15px;
+    width: -moz-fit-content;
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.3s;
+    display: none;
+    position: fixed;
+    z-index: 10;
+    bottom: 30px;
+    right: 50px;
+  }
+  #shape-notify:hover{
+    transform: translateY(-5px);
+  }
+  body{
+    position: relative;
+  }
+  #content-notify {
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-height: 18vh;
+    max-width: 45vh;
+  }
+  
+  #close-btn-notify {
+   
+    font-size: 20px;
+    cursor: pointer;
+  }
+  /* fin  */
+:root{
+    --green:#44D7B6;
+    --blue_sombre:#214F77;
+    --black_carte_produit:#262626; 
+    --noir_autre:#373737;
+    --yellow:#E6B925;
+    --white_BG:#F3F6FA;
+}
+@font-face {  
+    font-family: "segoeUI";
+    src: url(../../assets/fonts/segoeUI.ttf);
+}
+@font-face {
+    font-family: "segoeUI-semilight";
+    src: url(../../assets/fonts/segoeUI-semiligth-italic.ttf);
+}
+@font-face {
+    font-family: "segoeUI-italic";
+    src: url(../../assets/fonts/segoeUI-italic.ttf);
+}
+
+#date{
+    height: 40px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.date-ctn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.day{
+    color: white;
+    background-color:#0058ff;
+    padding: 7px;
+    border-radius: 4px;
+    cursor: default;
+    font-size: small;
+    transition: 0.3s;
+}
+#calendar{
+    color: #214f77;
+    border: #214F77 1px solid;
+    padding: 4px;
+    border-radius: 3px;
+    display: flex;
+    font-size: small;
+    align-items: center;
+}
+.head{
+    height: 50px;
+    padding: 10px;
+}
+.head span{
+    float: left;
+    font-family: "segoeUI";
+}
+#settings{
+    padding: 70px;
+    font-size: small;
+    font-family: "segoeUI";
+}
+#parametre form,#parametre ul{
+    height: 100%;
+}
+#parametre{
+    font-family: "segoeUI";
+    color: white;
+    background-color: #434343;
+    height: 50vh;
+    width: 44vw;
+    border-radius: 20px;
+    padding: 45px;
+}
+#parametre ul div,#parametre li{
+    display: flex;
+}
+#parametre li{
+    flex-direction: column;
+}
+#time-bid div:first-child{
+    flex-direction: column;
+}
+#time-bid{
+    flex-direction: row!important;
+    justify-content: space-between!important;
+}
+#time-bid p{
+    font-size: smaller;
+    width: 182px;
+}
+#time-bid img{
+    width: 20px;
+}
+#time-bid div:nth-child(2){
+    gap: 10px;
+}
+#parametre ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#parametre input,#parametre select{
+    width: 150px;
+    height: 20px;
+}
+
+#lotPart{
+    padding: 70px;
+    position: relative;
+}
+
+/* article */
+#titre-lotPart{
+    text-align: center;
+    font-size: larger;
+}
+#titre-lotPart>span{
+    position: relative;
+}
+#titre-lotPart>span::after{
+    content: '';
+    width: 100%;
+    position: absolute;
+    background-color: var(--yellow);
+    display: block;
+    height: 3px;
+    right: 0;
+}
+.num {
+    width: 60px;
+    height: 40px;
+    border: 1px solid;
+    margin: 5px;
+    margin-left: 10px;
+    padding: 10px 10px 10px 24.5px;
+}
+.numero-lot{
+    transition: 0.3s;
+}
+#control-box{
+    position: sticky;
+    width: -moz-fit-content;
+    width: fit-content;
+    float: right;
+    top: 90px;
+}
+.screen-ctrl{
+    background-color: #EDEDED;
+}
+#plus {
+    width: 60px;
+    height: 45px;
+    margin: 5px;
+    border-radius: 0px;
+    margin-left: 35px;
+    background-color: var(--green);
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px 10px 10px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: x-large;
+}
+#save{
+    margin-top: 25px;
+    width: 100px;
+    height: 50px;
+    border: 0;
+    outline: none;
+    background-color: var(--black_carte_produit);
+    color: white;
+    cursor: pointer;
+}
+article{
+    background-color: #F3F6FA;
+    width: 60vw;
+    border-radius: 20px;
+    padding: 20px;
+}
+.supr-btn{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    gap: 4px;
+    cursor: pointer;
+}
+.supr-btn img{
+    width: 20px;
+}
+article ul{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 20px 25px 20px;
+}
+article input,textarea,.bloc-img{
+    border: 1px solid var(--yellow);
+}
+article input,article select{
+    height: 40px;
+    border-radius: 5px;
+}
+.champs{
+    display: flex;
+}
+.champs:nth-child(3){
+    flex-direction: column;
+    gap: 5px;
+}
+.img-list-part{
+    display: flex;
+    justify-content: space-between;
+}
+.img-list-part .bloc-img{
+    width: 113px;
+    height: 96px;
+    position: relative;
+}
+.img-list-part label{
+    font-size: smaller;
+    font-family: "segoeUI";
+
+}
+input[type="file"] {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+.img-disp{
+    width: 100%;
+    height: 100%;
+}  
+.img-disp img{
+    width: 100%;
+    height: 100%;
+}
+
+img:not([src]) {
+    visibility: hidden;
+}
+.preview{
+    transition: 0.3s;
+    overflow: hidden;
+    cursor: pointer;
+}
+.info-for-lot-img span:nth-child(2){
+    font-size: smaller;
+}
+  
+  
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    color: white!important;
+}
+#modal a{
+    color: white!important;
+    text-decoration: underline;
+}
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #599c60;
+    padding: 20px;
+    border-radius: 5px;
+}
+  
+.modal-buttons {
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}
+#image_path,#description_path{
+    flex-direction: column;
+}
+#quantity_path{
+    display: inherit;
+}
+
+#category_path{
+    padding-left: 45px;
+}
+#sub_btn{
+    margin-top: 10px;
+}

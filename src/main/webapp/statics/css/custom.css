@@ -1,0 +1,20 @@
+#our_brand{
+    width: 195px;
+}
+.remove-button{
+    background: none!important;
+}
+.remove-button div{
+    width: fit-content;
+}
+.cart-quantity {
+    width: 65px!important;
+}
+.w-commerce-commercecartproductname>a{
+    text-decoration: none;
+    color: black!important;
+    font-size: medium;
+}
+.w-commerce-commercecartitem{
+    transition: 0.3s ease-in-out;
+}
